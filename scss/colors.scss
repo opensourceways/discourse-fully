@@ -104,15 +104,6 @@
   .sidebar-section-link--active {
     color: var(--active-text);
     background-color: var(--tertiary);
-
-    &:hover {
-      background-color: var(--sidebar-hover);
-      color: var(--primary);
-
-      .sidebar-section-link-prefix.icon {
-        color: var(--primary);
-      }
-    }
   }
 }
 
