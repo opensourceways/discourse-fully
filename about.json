@@ -9,9 +9,9 @@
     "https://github.com/discourse/discourse-mermaid-theme-component.git",
     "https://github.com/discourse/DiscoTOC.git"
   ],
-  "name": "mindspore Fully Theme",
+  "name": "MindSpore Fully Theme",
   "color_schemes": {
-    "mindspore-light": {
+    "MindSpore-light": {
       "primary": "000000",
       "secondary": "f7f8fa",
       "tertiary": "3366ff",
