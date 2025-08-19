@@ -2,7 +2,6 @@
   "license_url": null,
   "components": [
     "https://github.com/discourse/discourse-full-width-component.git",
-    "https://github.com/discourse/new-like-icon.git",
     "https://github.com/discourse/discourse-category-banners.git",
     "https://github.com/opensourceways/header-locale-selector.git",
     "https://github.com/opensourceways/discourse-cookie-policy.git",
