@@ -63,7 +63,8 @@
       .logo_pc {
         width: 86px;
         height: 27px;
-        background-image: url(https://obs-for-discourse.obs.ap-southeast-1.myhuaweicloud.com/forum_light.png);
+        background-image: light-dark(url(https://obs-for-discourse.obs.ap-southeast-1.myhuaweicloud.com/forum_light.png),
+          url(https://obs-for-discourse.obs.ap-southeast-1.myhuaweicloud.com/forum_dark.png));
         @media screen and (max-width: 1000px) {
           display: none;
         }
@@ -74,7 +75,8 @@
       .website-logo {
         height: 28px;
         width: 108px;
-        background-image: url(https://obs-mindspore-prod.obs.cn-north-4.myhuaweicloud.com/discourse/mindspore-logo-light.svg);
+        background-image: light-dark(url(https://obs-mindspore-prod.obs.cn-north-4.myhuaweicloud.com/discourse/mindspore-logo-light.svg),
+          url(https://obs-mindspore-prod.obs.cn-north-4.myhuaweicloud.com/discourse/mindspore-logo-dark.svg));
         @media screen and (max-width: 420px) {
           width: 68px;
           height: 16px;
@@ -97,20 +99,14 @@
       }
     }
   }
-}
 
-.dark {
-  .d-header {
-    .home-logo-wrapper-outlet {
-      .forum-logo {
-        background-image: url(https://obs-for-discourse.obs.ap-southeast-1.myhuaweicloud.com/forum_dark.png);
-      }
-      .website-logo {
-        background-image: url(https://obs-mindspore-prod.obs.cn-north-4.myhuaweicloud.com/discourse/mindspore-logo-dark.svg);
-      }
+  .panel {
+    .sign-up-button {
+      display: none;
     }
   }
 }
+
 html[lang="zh-CN"] {
   .home-logo-wrapper-outlet {
     .lang-en {
