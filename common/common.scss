@@ -15,3 +15,29 @@
   border-radius: 8px;
   min-width: unset !important;
 }
+
+.btn-primary {
+  color: #ffffff;
+  .d-icon {
+    color: #ffffff;
+  }
+}
+
+html.discourse-no-touch {
+  .btn-primary {
+    .d-icon {
+      color: #ffffff;
+    }
+  }
+}
+
+.discourse-touch {
+  .sidebar-custom-sections {
+    a:hover {
+      background: var(--sidebar-hover) !important;
+    }
+    .active:hover {
+      background: var(--tertiary) !important;
+    }
+  }
+}
