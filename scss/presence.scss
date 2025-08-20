@@ -24,6 +24,11 @@
   background-color: transparent;
 }
 
+
+.sidebar-section-link:hover .sidebar-section-link-prefix.image.active::before {
+  box-shadow: 0px 0px 0px 2px var(--sidebar-hover);
+}
+
 .sidebar-section-link {
   &.sidebar-section-link--active {
     .sidebar-section-link-prefix.image.active::before {

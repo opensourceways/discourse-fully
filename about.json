@@ -1,11 +1,28 @@
 {
-  "about_url": "https://meta.discourse.org/t/fully-a-full-width-discourse-theme/262833",
   "license_url": null,
   "components": [
-    "https://github.com/discourse/discourse-full-width-component.git"
+    "https://gh-proxy.test.osinfra.cn/https://github.com/discourse/discourse-full-width-component.git",
+    "https://gh-proxy.test.osinfra.cn/https://github.com/discourse/discourse-category-banners.git",
+    "https://gh-proxy.test.osinfra.cn/https://github.com/opensourceways/header-locale-selector.git",
+    "https://gh-proxy.test.osinfra.cn/https://github.com/opensourceways/discourse-cookie-policy.git",
+    "https://gh-proxy.test.osinfra.cn/https://github.com/discourse/discourse-mermaid-theme-component.git",
+    "https://gh-proxy.test.osinfra.cn/https://github.com/discourse/DiscoTOC.git"
   ],
-  "name": "Fully Theme",
+  "name": "openFuyao Fully Theme",
   "color_schemes": {
-  },
-  "screenshots": ["screenshots/light.png", "screenshots/dark.png"]
+    "openFuyao-light": {
+      "primary": "000000",
+      "secondary": "f7f8fa",
+      "tertiary": "6993f7",
+      "quaternary": "e45735",
+      "header_background": "ffffff",
+      "header_primary": "000000",
+      "highlight": "ffff4d",
+      "danger": "c80001",
+      "success": "009900",
+      "love": "fa6c8d",
+      "selected": "e7edf6",
+      "hover": "f2f2f2"
+    }
+  }
 }
