@@ -1,11 +1,28 @@
 {
-  "about_url": "https://meta.discourse.org/t/fully-a-full-width-discourse-theme/262833",
   "license_url": null,
   "components": [
-    "https://github.com/discourse/discourse-full-width-component.git"
+    "https://github.com/discourse/discourse-full-width-component.git",
+    "https://github.com/discourse/discourse-category-banners.git",
+    "https://github.com/opensourceways/header-locale-selector.git",
+    "https://github.com/opensourceways/discourse-cookie-policy.git",
+    "https://github.com/discourse/discourse-mermaid-theme-component.git",
+    "https://github.com/discourse/DiscoTOC.git"
   ],
-  "name": "Fully Theme",
+  "name": "openEuler Fully Theme",
   "color_schemes": {
-  },
-  "screenshots": ["screenshots/light.png", "screenshots/dark.png"]
+    "openEuler-light": {
+      "primary": "000000",
+      "secondary": "ffffff",
+      "tertiary": "002fa7",
+      "quaternary": "002fa7",
+      "header_background": "ffffff",
+      "header_primary": "333333",
+      "highlight": "e5e8f0",
+      "danger": "f3524d",
+      "success": "6dc335",
+      "love": "002fa7",
+      "selected": "d1f0ff",
+      "hover": "f2f2f2"
+    }
+  }
 }
