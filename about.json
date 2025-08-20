@@ -1,13 +1,13 @@
 {
   "license_url": null,
   "components": [
-    "https://github.com/discourse/discourse-full-width-component.git",
-    "https://github.com/discourse/discourse-category-banners.git",
-    "https://github.com/opensourceways/header-locale-selector.git",
-    "https://github.com/opensourceways/discourse-cookie-policy.git",
-    "https://github.com/discourse/discourse-mermaid-theme-component.git",
-    "https://github.com/discourse/DiscoTOC.git",
-    "https://github.com/discourse/discourse-matomo-analytics.git"
+    "https://gh-proxy.test.osinfra.cn/https://github.com/discourse/discourse-full-width-component.git",
+    "https://gh-proxy.test.osinfra.cn/https://github.com/discourse/discourse-category-banners.git",
+    "https://gh-proxy.test.osinfra.cn/https://github.com/opensourceways/header-locale-selector.git",
+    "https://gh-proxy.test.osinfra.cn/https://github.com/opensourceways/discourse-cookie-policy.git",
+    "https://gh-proxy.test.osinfra.cn/https://github.com/discourse/discourse-mermaid-theme-component.git",
+    "https://gh-proxy.test.osinfra.cn/https://github.com/discourse/DiscoTOC.git",
+    "https://gh-proxy.test.osinfra.cn/https://github.com/discourse/discourse-matomo-analytics.git"
   ],
   "name": "openUBMC Fully Theme",
   "color_schemes": {
