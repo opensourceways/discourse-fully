@@ -27,3 +27,95 @@
 .full-page-chat .chat-full-page-header {
   border-top: none;
 }
+
+.has-sidebar-page .d-header > .wrap .contents {
+  grid-template-columns: calc(var(--d-sidebar-width) - 11px) 1fr
+  minmax(0, calc(var(--d-max-width))) 1fr minmax(300px, calc(var(--d-sidebar-width) - 11px));
+}
+
+.d-header > .wrap .contents {
+  grid-template-columns:
+    minmax(auto, 1fr) auto minmax(0, calc(var(--d-max-width)))
+    auto minmax(260px, 1fr);
+  @media screen and (max-width: 1000px) {
+    grid-template-columns:
+      minmax(auto, 1fr) auto minmax(0, calc(var(--d-max-width)))
+      auto minmax(auto, 1fr);
+  }
+}
+
+.d-header {
+  .home-logo-wrapper-outlet {
+    margin-left: 3em;
+    @media screen and (max-width: 1000px) {
+      margin: 0;
+    }
+    .title {
+      & > a {
+        display: flex;
+        align-items: center;
+      }
+      a {
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+      }
+      .logo_pc {
+        width: 86px;
+        height: 27px;
+        background-image: light-dark(url(https://obs-for-discourse.obs.ap-southeast-1.myhuaweicloud.com/forum_light.png),
+          url(https://obs-for-discourse.obs.ap-southeast-1.myhuaweicloud.com/forum_dark.png));
+        @media screen and (max-width: 1000px) {
+          display: none;
+        }
+      }
+      .logo_mb {
+        display: none;
+      }
+      .openubmc-logo {
+        margin-top: 3px;
+        height: 18px;
+        width: 88px;
+        background-image: light-dark(url(https://openubmc-website.obs.cn-north-4.myhuaweicloud.com/logo/light.svg),
+        url(https://openubmc-website.obs.cn-north-4.myhuaweicloud.com/logo/dark.svg));
+        @media screen and (max-width: 420px) {
+          width: 68px;
+          height: 16px;
+        }
+      }
+      .divid {
+        margin: 0 12px;
+        width: 1px;
+        height: 16px;
+        background-color: var(--primary);
+        @media screen and (max-width: 1000px) {
+          margin: 0 8px;
+        }
+      }
+      img {
+        height: 100%;
+      }
+    }
+  }
+}
+
+html[lang="zh-CN"] {
+  .home-logo-wrapper-outlet {
+    .lang-en {
+      display: none;
+    }
+    .lang-zh {
+      display: block;
+    }
+  }
+}
+
+html[lang="en"] {
+  .home-logo-wrapper-outlet {
+    .lang-en {
+      display: block;
+    }
+    .lang-zh {
+      display: none;
+    }
+  }
+}
