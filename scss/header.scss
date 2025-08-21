@@ -96,6 +96,12 @@
       }
     }
   }
+
+  .panel {
+    .sign-up-button {
+      display: none;
+    }
+  }
 }
 
 html[lang="zh-CN"] {
