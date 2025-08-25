@@ -60,8 +60,8 @@
         background-size: 100% 100%;
       }
       .logo_pc {
-        width: 86px;
-        height: 27px;
+        width: 60px;
+        height: 20px;
         background-image: light-dark(url(https://obs-for-discourse.obs.ap-southeast-1.myhuaweicloud.com/forum_light.png),
           url(https://obs-for-discourse.obs.ap-southeast-1.myhuaweicloud.com/forum_dark.png));
         @media screen and (max-width: 1000px) {
@@ -73,8 +73,8 @@
       }
       .openubmc-logo {
         margin-top: 3px;
-        height: 18px;
-        width: 88px;
+        height: 22px;
+        width: 108px;
         background-image: light-dark(url(https://openubmc-website.obs.cn-north-4.myhuaweicloud.com/logo/light.svg),
         url(https://openubmc-website.obs.cn-north-4.myhuaweicloud.com/logo/dark.svg));
         @media screen and (max-width: 420px) {
