@@ -45,3 +45,7 @@ html.discourse-no-touch {
 div[class^=category-title-header] {
   display: none;
 }
+
+#reply-control.open {
+  --min-height: 70%;
+}
