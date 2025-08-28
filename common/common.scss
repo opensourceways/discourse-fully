@@ -45,3 +45,26 @@ html.discourse-no-touch {
 div[class^=category-title-header] {
   display: none;
 }
+
+#reply-control.open {
+  --min-height: 70%;
+}
+
+$theme-color-light: #7d32ea;
+$theme-color-dark: #9a58ee;
+$theme-color: light-dark($theme-color-light, $theme-color-dark);
+
+$card-bg-light: #E8E8EB;
+$card-bg-dark: #353539;
+$card-bg: light-dark($card-bg-light, $card-bg-dark);
+
+$btn-hover-light: #B680F2;
+$btn-hover-dark: #6124C6;
+$btn-hover: light-dark($btn-hover-light, $btn-hover-dark);
+
+:root {
+  --tertiary: #{$theme-color};
+  --tertiary-low: #{$card-bg};
+  --d-selected: #{$card-bg};
+  --tertiary-hover: #{$btn-hover};
+}
