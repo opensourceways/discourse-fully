@@ -45,3 +45,24 @@ html.discourse-no-touch {
 div[class^=category-title-header] {
   display: none;
 }
+
+#reply-control.open {
+  --min-height: 70%;
+}
+
+$theme-color: #0071F3;
+
+$btn-hover-light: #338DF5;
+$btn-hover-dark: #0456D1;
+$btn-hover: light-dark($btn-hover-light, $btn-hover-dark);
+
+$card-bg-light: #E8E8EB;
+$card-bg-dark: #353539;
+$card-bg: light-dark($card-bg-light, $card-bg-dark);
+
+:root {
+  --tertiary: #{$theme-color};
+  --tertiary-low: #{$card-bg};
+  --d-selected: #{$card-bg};
+  --tertiary-hover: #{$btn-hover};
+}
