@@ -66,3 +66,7 @@ $card-bg: light-dark($card-bg-light, $card-bg-dark);
   --d-selected: #{$card-bg};
   --tertiary-hover: #{$btn-hover};
 }
+
+body.has-sidebar-page #main-outlet-wrapper {
+  grid-template-columns: 272px minmax(0, var(--d-max-width)) !important;
+}
