@@ -8,6 +8,15 @@
   --presence-online: var(--success);
   --d-border-radius: 4px;
   --d-border-radius-large: 8px;
+  @media (min-width: 1681px) and (max-width: 1920px) {
+    --d-max-width: 1280px;
+    --d-sidebar-width: 336px !important;
+  }
+
+  @media (min-width: 1921px) {
+    --d-max-width: 1670px;
+    --d-sidebar-width: 336px !important;
+  }
 }
 
 .sidebar-wrapper .sidebar-sections {

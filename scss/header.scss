@@ -60,8 +60,8 @@
         background-size: 100% 100%;
       }
       .logo_pc {
-        width: 60px;
-        height: 20px;
+        width: 56px;
+        height: 26px;
         background-image: light-dark(url(https://obs-for-discourse.obs.ap-southeast-1.myhuaweicloud.com/forum_light.png),
           url(https://obs-for-discourse.obs.ap-southeast-1.myhuaweicloud.com/forum_dark.png));
         @media screen and (max-width: 1000px) {
@@ -89,6 +89,7 @@
         background-color: var(--primary);
         @media screen and (max-width: 1000px) {
           margin: 0 8px;
+          display: none;
         }
       }
       img {
