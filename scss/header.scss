@@ -89,6 +89,7 @@
         background-color: var(--primary);
         @media screen and (max-width: 1000px) {
           margin: 0 8px;
+          display: none;
         }
       }
       img {
