@@ -50,6 +50,55 @@ div[class^=category-title-header] {
   --min-height: 70%;
 }
 
+@media (min-width: 1016px) {
+  body.has-sidebar-page #reply-control:not(.fullscreen).hide-preview {
+    left: 0 !important;
+    margin-left: 304px !important;
+  }
+}
+
+
+@media (min-width: 1681px) and (max-width: 1920px) {
+  #reply-control:not(.fullscreen).hide-preview {
+    max-width: 1280px !important;
+  }
+
+  body.has-sidebar-page #reply-control:not(.fullscreen).hide-preview {
+    left: 0 !important;
+    margin-left: 368px !important;
+  }
+}
+
+@media (min-width: 1921px) and (max-width: 2070px) {
+  #reply-control:not(.fullscreen).hide-preview {
+    max-width: 1520px !important;
+  }
+
+  body.has-sidebar-page #reply-control:not(.fullscreen).hide-preview {
+    left: 0 !important;
+    margin-left: 368px !important;
+  }
+
+  #main-outlet-wrapper #main-outlet {
+    width: calc(100% - 48px) !important;
+  }
+
+  body.has-sidebar-page #main-outlet-wrapper {
+    gap: 0 !important;
+  }
+}
+
+@media (min-width: 2071px) {
+  #reply-control:not(.fullscreen).hide-preview {
+    max-width: 1670px !important;
+  }
+
+  body.has-sidebar-page #reply-control:not(.fullscreen).hide-preview {
+    left: 0 !important;
+    margin-left: 368px !important;
+  }
+}
+
 $theme-color-light: #3366ff;
 $theme-color-dark: #3397ff;
 $theme-color: light-dark($theme-color-light, $theme-color-dark);
@@ -67,4 +116,53 @@ $btn-hover: light-dark($btn-hover-light, $btn-hover-dark);
   --tertiary-low: #{$card-bg};
   --d-selected: #{$card-bg};
   --tertiary-hover: #{$btn-hover};
+}
+
+@media (min-width: 1681px) {
+  body.has-sidebar-page #main-outlet-wrapper {
+    grid-template-columns: 336px minmax(0, var(--d-max-width)) !important;
+  }
+
+  .post-stream {
+    .topic-body, .small-action .small-action-desc {
+      width: 100%;
+    }
+
+    .topic-map {
+      max-width: 100%;
+    }
+
+    .small-action.topic-post-visited .topic-post-visited-line {
+      width: 100%;
+    }
+  }
+
+  .topic-area {
+    &>.loading-container {
+      width: 100%;
+    }
+
+    .topic-timer-info {
+      max-width: 100%;
+    }
+  }
+
+  .posts {
+    .topic-map.--bottom {
+      max-width: 100%;
+    }
+  }
+
+  .post-notice {
+    max-width: 100%;
+  }
+}
+
+.desktop-view .has-sidebar-page .d-header-wrap::before {
+  border-right: none;
+  background-color: var(--header_background);
+}
+
+.d-header>.wrap {
+  padding-left: 16px;
 }
