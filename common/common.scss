@@ -116,6 +116,7 @@ $btn-hover: light-dark($btn-hover-light, $btn-hover-dark);
   --tertiary-low: #{$card-bg};
   --d-selected: #{$card-bg};
   --tertiary-hover: #{$btn-hover};
+  --active-text: #ffffff;
 }
 
 @media (min-width: 1681px) {
