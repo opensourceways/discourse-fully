@@ -155,3 +155,12 @@ div[class^=category-title-header] {
 .d-header>.wrap {
   padding-left: 16px;
 }
+
+$theme-color-light: #002FA7;
+$theme-color-dark: #497AF8;
+$theme-color: light-dark($theme-color-light, $theme-color-dark);
+
+:root {
+  --tertiary: #{$theme-color};
+  --active-text: #ffffff;
+}
