@@ -141,6 +141,10 @@ $border-color: light-dark($border-color-light, $border-color-dark);
         border-radius: 4px;
         margin-right: 8px;
       }
+
+      .discourse-tag.bullet::before {
+        background-color: transparent;
+      }
     }
 
     // 右侧内容区图标
