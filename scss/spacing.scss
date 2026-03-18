@@ -172,23 +172,14 @@ $border-color: light-dark($border-color-light, $border-color-dark);
   }
 
   .unseen-topic {
-    .badge-notification {
-      display: none;
+    .badge-notification.new-topic::before {
+      background: #c7000b;
+      width: 6px;
+      height: 6px;
     }
 
-    .link-top-line {
-      position: relative;
-
-      &::after {
-        content: '';
-        position: absolute;
-        top: -2px;
-        right: -5px;
-        width: 6px;
-        height: 6px;
-        background-color: #c7000b;
-        border-radius: 50%;
-      }
+    .badge-notification {
+      top: -8px;
     }
   }
 }
