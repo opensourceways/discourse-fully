@@ -91,7 +91,7 @@ export default apiInitializer("1.34.0", (api) => {
       await logoutForum();
     } else{
         // 论坛登出，官网同步登出
-        const userBtn = document.querySelector('.header-buttons .current-user .avatar');
+        const userBtn = document.querySelector('.d-header-icons .current-user .avatar');
         if (!isUserFirstListen) {
           isUserFirstListen = true;
           userBtn.addEventListener("click", () => {
